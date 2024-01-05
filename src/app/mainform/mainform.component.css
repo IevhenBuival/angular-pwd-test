@@ -1,31 +1,43 @@
 .wrapper {
   margin: auto;
-  width: 50%;
+  width: 30%;
+}
+@media (max-width: 667px) {
+  .wrapper {
+    width: 90%;
+  }
 }
 .input {
   width: 100%;
   background-color: azure;
-  border-radius: 10px;
-  border-color: darkcyan;
+  border-radius: 5px;
+  border-color: black;
+  padding: 5px;
+  margin: 10px 0;
 }
 
 .red {
   background-color: red;
+  border-radius: 5px;
   height: 16px;
-  margin: 2px;
+  margin: 2px 0;
 }
 .yellow {
   background-color: yellow;
+  border-radius: 5px;
   height: 16px;
-  margin: 2px;
+  margin: 2px 0;
 }
 .grey {
   background-color: grey;
+  width: 100%;
+  border-radius: 5px;
   height: 16px;
-  margin: 2px;
+  margin: 2px 0;
 }
 .green {
   background-color: green;
+  border-radius: 5px;
   height: 16px;
-  margin: 2px;
+  margin: 2px 0;
 }
