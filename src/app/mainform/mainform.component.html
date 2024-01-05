@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <label>Input password</label>
+  <input
+    class="input"
+    [value]="password()"
+    type="password"
+    (input)="handleChange($event)"
+  />
+  @for(item of colormap(); track $index){
+  <div [class]="item"></div>
+  }
+</div>
