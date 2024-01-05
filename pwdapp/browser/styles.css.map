@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/styles.css"],
+  "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\n@import url(\"https://fonts.googleapis.com/css?family=Inter&family=Titillium++Web&display=swap\");\n\n:root {\n  --main-padding: 16px;\n}\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  font-size: 14px;\n  padding: var(--main-padding);\n  font-family: \"Inter\", sans-serif;\n}\n"],
+  "mappings": ";;;AAGA;AACE,kBAAgB;AAClB;AACA;AACE,UAAQ;AACR,WAAS;AACT,cAAY;AACd;AAEA;AACE,aAAW;AACX,WAAS,IAAI;AACb,eAAa,OAAO,EAAE;AACxB;",
+  "names": []
+}

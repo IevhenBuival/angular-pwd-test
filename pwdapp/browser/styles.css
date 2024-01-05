@@ -1,0 +1,19 @@
+@import "https://fonts.googleapis.com/css?family=Inter&family=Titillium++Web&display=swap";
+
+/* src/styles.css */
+:root {
+  --main-padding: 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  padding: var(--main-padding);
+  font-family: "Inter", sans-serif;
+}
+
+/* angular:styles/global:styles */
+/*# sourceMappingURL=styles.css.map */
